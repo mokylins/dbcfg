@@ -5,7 +5,7 @@ RUN mkdir -p /data
 #复制
 ADD java_option.sh /data/java_option.sh 
 ADD start.sh /data/start.sh
-ADD dip.jar /data/dip.jar
+ADD dbcfg.jar /data/dbcfg.jar
 # ADD app /
 
 #WORKDIR 设置工作目录 相当于cd
